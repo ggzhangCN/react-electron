@@ -1,10 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Button } from "antd";
+import logo from "./logo.svg";
+import "./App.less";
 
 function App() {
   return (
     <div className="App">
+      <Button type="primary">click</Button>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
